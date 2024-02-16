@@ -43,8 +43,8 @@ img {
 .navigation {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -89,6 +89,7 @@ img {
   text-decoration: none;
   color: #2e2f42;
   line-height: 24px;
+  padding: 24px 0;
 }
 .navigation .link:hover,
 .navigation .link:focus {
@@ -239,7 +240,6 @@ img {
 .images-list {
   background-color: #ffffff;
   padding-bottom: 120px;
-  border-radius: 0px 0px 4px 4px;
 }
 .four-images {
   margin-bottom: 32px;
