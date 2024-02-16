@@ -63,6 +63,14 @@ ol {
   margin: 24 156 24 332;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
 .link-webstudio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -187,6 +195,14 @@ ol {
   text-transform: capitalize;
   color: #2e2f42;
   padding-top: 120px;
+  margin-bottom: 72px;
+}
+
+.first-photo {
+  border-radius: 0px 0px 4px 4px;
+}
+.photo-container {
+  padding: 32px 0;
 }
 .section-title-thr-four {
   font-size: 36px;
@@ -209,10 +225,12 @@ ol {
 
 .our-team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .footer-section {
   background-color: #2e2f42;
   color: #ffffff;
+  padding: 100px 0;
 }
 
 .studio {
@@ -261,8 +279,6 @@ ol {
 }
 
 .footer-container {
-  width: 1440px;
-  height: 312px;
 }
 
 .footer-link-webstudio {
