@@ -204,7 +204,7 @@ ol {
 .photo-container {
   padding: 32px 0;
 }
-.section-title-thr-four {
+.section-title-four {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -212,7 +212,7 @@ ol {
   text-transform: capitalize;
   color: #2e2f42;
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .first-section {
@@ -262,7 +262,9 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
 }
-
+.portfolio-section {
+  padding: 120px 0 120px 0;
+}
 .images {
   margin-bottom: 32px;
   width: 360px;
@@ -271,11 +273,18 @@ ol {
 .six-images {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px 48px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .six-images-list {
   padding-bottom: 120px;
   flex-basis: calc((100% - 48) / 3);
+}
+.portfolio-items {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .footer-container {
