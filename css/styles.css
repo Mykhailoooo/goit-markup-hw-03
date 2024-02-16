@@ -178,6 +178,16 @@ ol {
   color: #2e2f42;
   padding-top: 120px;
 }
+.section-title-thr-four {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
 
 .first-section {
   background-color: #2e2f42;
@@ -199,6 +209,72 @@ ol {
   color: #2e2f42;
 }
 
-.imgs {
+.images-list {
   background-color: #ffffff;
+  padding-bottom: 120px;
+}
+.four-images {
+  margin-bottom: 32px;
+  width: 264px;
+  height: 260px;
+}
+
+.team-titles {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.team-paragraphs {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.images {
+  margin-bottom: 32px;
+  width: 360px;
+  height: 300px;
+}
+.six-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 48px;
+}
+.six-images-list {
+  padding-bottom: 120px;
+  flex-basis: calc((100% - 48) / 3);
+}
+
+.footer-container {
+  width: 1440px;
+  height: 312px;
+}
+
+.footer-link-webstudio {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  margin-left: 0px;
+  margin-top: 101.5px;
+}
+.footer-text {
+  max-width: 264px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #f4f4fd;
 }
