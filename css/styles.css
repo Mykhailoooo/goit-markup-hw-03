@@ -22,6 +22,12 @@ ol {
   margin: 0;
   padding-left: 0;
 }
+.img {
+  display: block;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .container {
   width: 100%;
   max-width: 1158px;
@@ -103,7 +109,7 @@ ol {
   letter-spacing: 0.02em;
   font-weight: 700;
   height: 120px;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
   display: block;
   margin-bottom: 48px;
@@ -124,6 +130,8 @@ ol {
   border: none;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -142,7 +150,9 @@ ol {
   gap: 24px;
   margin: 120px auto;
 }
-
+.second-section {
+  padding: 120px 0;
+}
 .advantages-item {
   width: calc((100% - 72px) / 4);
 }
