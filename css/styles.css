@@ -160,9 +160,7 @@ img {
 .advantages-item {
   width: calc((100% - 72px) / 4);
 }
-.first-photo {
-  border-radius: 0px 0px 4px 4px;
-}
+
 .photos-list {
   display: flex;
   gap: 24px;
@@ -235,6 +233,7 @@ img {
 .images-list {
   background-color: #ffffff;
   padding-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
 }
 .four-images {
   margin-bottom: 32px;
