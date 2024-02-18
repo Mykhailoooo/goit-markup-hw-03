@@ -53,9 +53,7 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  margin-right: 332px;
-  flex-grow: 1;
-  justify-content: space-between;
+  margin-right: auto;
 }
 
 .link-address {
@@ -85,7 +83,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin: 24px 0;
+
   margin-right: 76px;
 }
 .navigation .link {
@@ -95,6 +93,7 @@ img {
   color: #2e2f42;
   line-height: 24px;
   padding: 24px 0;
+  display: block;
 }
 .navigation .link:hover,
 .navigation .link:focus {
@@ -157,7 +156,6 @@ img {
 .advantages {
   display: flex;
   gap: 24px;
-  margin: 120px auto;
 }
 .second-section {
   padding: 120px 0;
@@ -169,8 +167,6 @@ img {
 .photos-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 240px;
-  margin: 72px auto 120px;
 }
 
 .titles {
@@ -195,7 +191,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -209,7 +204,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -237,13 +231,9 @@ img {
 
 .images-list {
   background-color: #ffffff;
-  padding-bottom: 120px;
   border-radius: 0px 0px 4px 4px;
 }
 .four-images {
-  margin-bottom: 32px;
-  width: 264px;
-  height: 260px;
 }
 
 .team-titles {
@@ -265,7 +255,6 @@ img {
   padding: 120px 0 120px 0;
 }
 .images {
-  margin-bottom: 32px;
   width: 360px;
   height: 300px;
 }
@@ -276,17 +265,12 @@ img {
   row-gap: 48px;
 }
 .six-images-list {
-  padding-bottom: 120px;
-  flex-basis: calc((100% - 48) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-items {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
-}
-
-.footer-container {
 }
 
 .footer-link-webstudio {
@@ -301,7 +285,7 @@ img {
   text-transform: uppercase;
   margin-bottom: 16px;
   margin-left: 0px;
-  margin-top: 101.5px;
+  text-decoration: none;
 }
 .footer-text {
   max-width: 264px;
